@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MyNotepad</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="enter_title">Enter a Title</string>
+    <string name="enter_content">Enter your Content here.</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_note_editor">NoteEditorActivity</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
