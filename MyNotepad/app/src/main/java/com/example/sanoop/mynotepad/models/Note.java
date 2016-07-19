@@ -1,5 +1,9 @@
 package com.example.sanoop.mynotepad.models;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Locale;
+
 /**
  * Created by sanoop on 7/19/2016.
  */
@@ -7,8 +11,15 @@ public class Note {
     private Long id;
     private String title;
     private String content;
-    private Long createdAt;
-    private Long updatedAt;
+    private String date;
+
+    public String getDate() {
+        return date;
+    }
+
+    public void setDate(String date) {
+        this.date = date;
+    }
 
     public Long getId() {
         return id;
@@ -32,21 +43,5 @@ public class Note {
 
     public void setContent(String content) {
         this.content = content;
-    }
-
-    public Long getCreatedAt() {
-        return createdAt;
-    }
-
-    public void setCreatedAt(Long createdAt) {
-        this.createdAt = createdAt;
-    }
-
-    public Long getUpdatedAt() {
-        return updatedAt;
-    }
-
-    public void setUpdatedAt(Long updatedAt) {
-        this.updatedAt = updatedAt;
     }
 }
